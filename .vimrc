@@ -40,6 +40,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'antoinemadec/coc-fzf'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
+Plug 'vimjas/vim-python-pep8-indent'
 call plug#end()
 
 " nerdtree
