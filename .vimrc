@@ -22,6 +22,7 @@ hi Constant ctermfg=Brown
 let mapleader = "\<space>"
 
 :colorscheme sorbet
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
 
 "切换回车为补全
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
